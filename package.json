@@ -1,0 +1,22 @@
+{
+  "name": "logger",
+  "fullName": "Add-on activity logger",
+  "version": "0.0.1",
+  "keywords": [
+    "debug",
+    "log"
+   ],
+   "description": "Log calls to add-ons done by the template",
+   "joshfire": {
+    "images": {
+      "small": "marketing/image-small.png",
+      "big": "marketing/image-small.png"
+    },
+    "hooks": [
+      "list",
+      "item"
+    ],
+    "intent": "http://factory.joshfire.com/webintents/log",
+    "options": {}
+   }
+}
