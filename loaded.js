@@ -1,5 +1,5 @@
 /**
- * @fileoverview List hook handler for the logger add-on.
+ * @fileoverview Item hook handler for the logger add-on.
  */
 define([], function () {
   /**
@@ -7,16 +7,16 @@ define([], function () {
    * with the configuration options given as parameter
    */
   return function (config) {
-    console.log('addon', 'logger', 'list', 'initialize', config);
+    console.log('addon', 'logger', 'loaded', 'initialize', config);
 
     return {
       generate: function (options, callback) {
-        console.log('addon', 'logger', 'list', 'generate', options);
+        console.log('addon', 'logger', 'loaded', 'generate', options);
         return callback(null, '');
       },
 
       enhance: function (el, options) {
-        console.log('addon', 'logger', 'list', 'enhance', el, options);
+        console.log('addon', 'logger', 'loaded', 'enhance', el, options);
       }
     };
   };

@@ -1,7 +1,7 @@
 {
   "name": "logger",
   "fullName": "Add-on activity logger",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "keywords": [
     "debug",
     "log"
@@ -14,7 +14,10 @@
     },
     "hooks": [
       "list",
-      "item"
+      "item",
+      "bootstrap",
+      "startfile",
+      "loaded"
     ],
     "intent": "http://factory.joshfire.com/webintents/log",
     "options": {}

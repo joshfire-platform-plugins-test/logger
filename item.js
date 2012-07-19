@@ -17,11 +17,6 @@ define([], function () {
 
       enhance: function (el, options) {
         console.log('addon', 'logger', 'item', 'enhance', el, options);
-      },
-
-      actionCallback: function(options, callback) {
-        console.log('addon', 'logger', 'item', 'actionCallback', options);
-        return callback();
       }
     };
   };
